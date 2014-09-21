@@ -140,7 +140,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  capybara (= 2.1.0)
+  capybara
   coffee-rails
   jbuilder
   jquery-rails
