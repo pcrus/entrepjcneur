@@ -16,5 +16,5 @@ RSpec.configure do |config|
       end
     end
   end
-  config.include Capybara::DSL, :type => :request
+  config.include Capybara::DSL
 end
