@@ -4,7 +4,6 @@ ruby '2.1.1'
 gem 'rails'
 
 group :development, :test do
-    gem 'pg'
     gem 'rspec-rails'
 end
 
@@ -26,6 +25,5 @@ group :doc do
 end
 
 group :production do
-    'pg'
     'rails_12factor'
 end
