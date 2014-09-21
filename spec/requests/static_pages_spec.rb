@@ -1,5 +1,5 @@
 require 'spec_helper'
-require 'rails_helper'
+require 'minitest/autorun'
 
 RSPec.configure do |config|
 describe "Static pages" do
