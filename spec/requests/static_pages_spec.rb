@@ -3,6 +3,8 @@ ENV["RAILS_ENV"] ||= 'test'
 require File.expand_path("../../../config/environment", __FILE__)
 require 'rspec/rails'
 require 'rspec/autorun'
+require 'capybara/rspec'
+require 'capybara/rails'
 
 RSpec.configure do |config|
   
@@ -14,5 +16,5 @@ RSpec.configure do |config|
       end
     end
   end
-  config.include Capybara::DSL
+  config.include Capybara::DSL, :type => :request
 end
