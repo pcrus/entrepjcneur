@@ -13,6 +13,7 @@ group :test do
     gem 'capybara'
 end
 
+gem 'pg'
 gem 'sass-rails'
 gem 'uglifier'
 gem 'coffee-rails'
