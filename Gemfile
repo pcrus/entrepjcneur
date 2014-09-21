@@ -12,6 +12,7 @@ group :test do
     gem 'capybara',             '2.1.0'
 end
 
+gem 'minitest'
 gem 'pg'
 gem 'sass-rails'
 gem 'uglifier'
