@@ -3,12 +3,15 @@ ruby '2.1.1'
 
 gem 'rails'
 
-gem 'rspec-rails', '2.13.1'
+group :development, :test do
+  gem 'rspec-rails', '2.13.1'
+end
 
-gem 'selenium-webdriver',   '2.35.1'
+group :test do
+  gem 'selenium-webdriver',   '2.35.1'
+  gem 'capybara'
+end
 
-
-gem 'capybara'
 gem 'minitest'
 gem 'pg'
 gem 'sass-rails'
