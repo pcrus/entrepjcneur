@@ -2,6 +2,8 @@ source 'https://rubygems.org'
 ruby '2.1.1'
 
 gem 'rails'
+gem 'bootstrap-sass'
+gem 'sprockets'
 
 group :development, :test do
   gem 'rspec-rails', '2.13.1'
